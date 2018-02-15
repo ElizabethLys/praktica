@@ -1,0 +1,130 @@
+body {
+    background-color: dimgray;
+    font-family: Century Gothic;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    background-color: lavenderblush;
+    border: 3px solid crimson;
+}
+
+.Header {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.Header a.logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 3em;
+}
+
+
+.avatarka {
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    padding-right: 50px;
+    float: left;
+    transition: 0.1s all;
+}
+.avatarka:hover{
+   
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.1s all;
+}
+
+ul.contacts {
+    padding: 20px;
+    padding-left: 30px;
+}
+
+ul.contacts li {
+    padding: 5px;
+}
+
+ul.contacts li.tel {
+    list-style-image: url(../img/tel.png);
+}
+
+ul.contacts li.e-mail {
+    list-style-image: url(../img/google.png);
+}
+
+ul.contacts li.skype {
+    list-style-image: url(../img/skype.png);
+}
+
+.caption {
+    font-size: 1.5em;
+    color: crimson;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.skills {
+    padding: 17px;
+    height: 140px;
+}
+
+ul.Caption li {
+    font-size: 1.2em;
+    color: crimson;
+    font-weight: bold;
+    list-style-image: url(../img/strelka.png);
+}
+
+.leftUl {
+    width: 45%;
+    float: left;
+}
+
+span {
+    float: left;
+}
+
+.expirience {
+    padding: 10px;
+}
+
+.row1 {
+    display: inline-block;
+}
+
+.row1 span {
+    padding: 10px;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+.education {
+    padding: 10px;
+}
+
+.personalSkills {
+    padding: 10px;
+}
+
+.personalSkills ul.skills {
+    list-style:circle;
+    list-style-position: inside;
+    column-count: 2;
+}
+.personalSkills ul.skills li{
+    padding: 10px;
+}
